@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+import 'package:newnoticias/models/articulo.model.dart';
+
+class DetallePage extends StatelessWidget {
+  DetallePage({super.key, required this.articulo});
+
+  ArticuloModels articulo;
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text(articulo.title)),
+      body: Container(
+        child: Text(articulo.title),
+      ),
+    );
+  }
+}
