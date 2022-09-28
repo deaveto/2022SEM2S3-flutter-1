@@ -22,5 +22,6 @@ class ArticuloModels {
       publishedAt: json["publishedAt"] ?? '',
       title: json["title"] ?? '',
       url: json["url"] ?? '',
-      urlToImage: json["urlToImage"] ?? '');
+      urlToImage: json["urlToImage"] ??
+          'https://lh3.googleusercontent.com/-UzeWN48Oryw/X2uNf_lDknI/AAAAAAAACYU/amYx3mhO1F0R1cy1UOwyHXhpQkQPSRYSgCLcBGAsYHQ/w635-h396/logo-tesla.jpg');
 }
