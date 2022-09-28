@@ -45,7 +45,7 @@ class CartWinget extends StatelessWidget {
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 8),
-              Text(articulo.description ?? '', maxLines: 3),
+              Text(articulo.description ?? '', maxLines: 2),
               SizedBox(height: 16),
               Text(
                   "Auto: " +

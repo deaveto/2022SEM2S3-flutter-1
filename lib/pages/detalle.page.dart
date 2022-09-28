@@ -25,13 +25,13 @@ class DetallePage extends StatelessWidget {
             ],
           ),
         ),
-        height: 550,
+        height: 600,
         child: Column(
           children: [
             articulo.urlToImage == null
                 ? Container(
                     color: Colors.red,
-                    height: 250,
+                    height: 200,
                   )
                 : Image.network(articulo.urlToImage.split('?')[0]),
             Expanded(
@@ -42,7 +42,7 @@ class DetallePage extends StatelessWidget {
                     Text(articulo.description ?? '', maxLines: 10),
                     SizedBox(height: 8),
                     Text(articulo.content ?? '', maxLines: 10),
-                    SizedBox(height: 50),
+                    SizedBox(height: 8),
                     Text("Autor: " + articulo.author ?? '', maxLines: 3),
                     SizedBox(height: 8),
                     Text(articulo.publishedAt.split('T')[0] ?? '', maxLines: 3),
