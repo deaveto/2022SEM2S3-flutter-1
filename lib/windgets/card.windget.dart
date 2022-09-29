@@ -26,8 +26,9 @@ class CartWinget extends StatelessWidget {
               begin: Alignment.bottomCenter,
               end: Alignment.topCenter,
               colors: [
-                Color.fromARGB(255, 0, 0, 0),
-                Color.fromARGB(206, 255, 255, 255),
+                Color.fromARGB(135, 240, 39, 39),
+                Color.fromARGB(255, 180, 44, 243),
+                Color.fromARGB(255, 4, 0, 255),
               ],
             ),
           ),

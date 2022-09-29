@@ -19,13 +19,13 @@ class DetallePage extends StatelessWidget {
             begin: Alignment.bottomCenter,
             end: Alignment.topCenter,
             colors: [
-              Color.fromARGB(255, 0, 0, 0),
-              Color.fromARGB(255, 43, 43, 44),
-              Color.fromARGB(255, 128, 128, 128),
+              Color.fromARGB(135, 240, 39, 39),
+              Color.fromARGB(255, 134, 33, 180),
+              Color.fromARGB(255, 2, 0, 94),
             ],
           ),
         ),
-        height: 600,
+        height: 550,
         child: Column(
           children: [
             articulo.urlToImage == null
