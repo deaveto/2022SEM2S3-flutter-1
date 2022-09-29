@@ -41,8 +41,6 @@ class DetallePage extends StatelessWidget {
                     SizedBox(height: 8),
                     Text(articulo.description ?? '', maxLines: 10),
                     SizedBox(height: 8),
-                    Text(articulo.content ?? '', maxLines: 10),
-                    SizedBox(height: 8),
                     Text("Autor: " + articulo.author ?? '', maxLines: 3),
                     SizedBox(height: 8),
                     Text(articulo.publishedAt.split('T')[0] ?? '', maxLines: 3),
